@@ -17,4 +17,30 @@
 
     <packaging>pom</packaging>
 
+    <licenses>
+        <license>
+            <name>GNU General Public Licence v3.0</name>
+            <url>https://www.gnu.org/licences/gpl.txt</url>
+        </license>
+    </licenses>
+
+    <organization>
+        <name>Spring Framework Aleksa</name>
+    </organization>
+
+    <developers>
+        <developer>
+            <name>Aleksa Ivanovic</name>
+        </developer>
+    </developers>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>14</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+    </properties>
+
 </project>
+
